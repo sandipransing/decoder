@@ -1,13 +1,13 @@
 module Coder
   class Countries
-    attr_accessor :loaded_countries
+    attr_accessor :countries
     
     def initialize
       self.load_yaml
     end
     
     def load_yaml
-      self.loaded_countries = YAML.load_file(yaml_file_name)
+      self.countries = YAML.load_file(yaml_file_name)
     end
     
     def yaml_file_name
@@ -16,13 +16,12 @@ module Coder
     
     def [](_code)
       _code    = _code.to_s.upcase.to_sym
-      country = loaded_countries[_code]
+      country = countries[_code]
       Coder::Country.new(:code => _code.to_s, :name => country)
     end
     
     def self.[](_code)
-      countries = self.new
-      countries[_code]
+      self.new[_code]
     end
   end
 end
