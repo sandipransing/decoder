@@ -14,10 +14,15 @@ module Coder
       "#{File.dirname(__FILE__)}/../i18n/countries/#{Coder.i18n}.yml"
     end
     
-    def [](code)
-      code    = code.to_s.upcase.to_sym
-      country = loaded_countries[code]
-      Coder::Country.new(:code => code.to_s, :name => country)
+    def [](_code)
+      _code    = _code.to_s.upcase.to_sym
+      country = loaded_countries[_code]
+      Coder::Country.new(:code => _code.to_s, :name => country)
+    end
+    
+    def self.[](_code)
+      countries = self.new
+      countries[_code]
     end
   end
 end

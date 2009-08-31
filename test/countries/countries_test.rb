@@ -59,6 +59,35 @@ class CountriesTest < Test::Unit::TestCase
       end
 
     end
+    
+    context "Getting a country alternate form" do
+
+      should "return a country object of \"United States\" for :US" do
+        country = Coder::Countries[:US]
+        assert_equal Coder::Country, country.class
+        assert_equal "United States", country.to_s
+      end
+
+      should "return a country object of \"United States\" for :us" do
+        country = Coder::Countries[:us]
+        assert_equal Coder::Country, country.class
+        assert_equal "United States", country.to_s
+      end
+
+      should "return a country object of \"United States\" for \"US\"" do
+        country = Coder::Countries["US"]
+        assert_equal Coder::Country, country.class
+        assert_equal "United States", country.to_s
+      end
+
+      should "return a country object of \"United States\" for \"us\"" do
+        country = Coder::Countries["us"]
+        assert_equal Coder::Country, country.class
+        assert_equal "United States", country.to_s
+      end
+
+    end
+
   end
   
 end
