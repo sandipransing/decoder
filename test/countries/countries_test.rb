@@ -15,10 +15,10 @@ class CountriesTest < Test::Unit::TestCase
         assert_match /eng.yml/, @countries.yaml_file_name
       end
       
-      should "set the #loaded_countries with the country data" do
+      should "set the #countries with the country data" do
         YAML.expects(:load_file).returns({:US => "United States"})
         @countries.load_yaml
-        assert "United States", @countries.loaded_countries[:US]
+        assert "United States", @countries.countries[:US]
       end
     end
     
