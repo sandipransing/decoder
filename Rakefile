@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = decoder"
+    gem.name = "decoder"
     gem.summary = %Q{Decoder}
     gem.description = %Q{Decoder}
     gem.email = "bcardarella@gmail.com"
@@ -50,7 +50,7 @@ Rake::RDocTask.new do |rdoc|
   end
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = decoder #{version}"
+  rdoc.title = "decoder #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
