@@ -1,6 +1,6 @@
 module Coder
   class Country
-    attr_accessor :loaded_states, :code, :name
+    attr_accessor :states, :code, :name
     
     def initialize(args)
       self.code = args[:code].to_s
@@ -10,7 +10,7 @@ module Coder
     end
     
     def load_yaml
-      self.loaded_states = YAML.load_file(yaml_file_name)
+      self.states = YAML.load_file(yaml_file_name)
     end
     
     def yaml_file_name
@@ -19,7 +19,7 @@ module Coder
     
     def [](_code)
       _code = _code.to_s.upcase.to_sym
-      state = loaded_states[_code]
+      state = states[_code]
       Coder::State.new(:code => _code.to_s, :name => state)
     end
     
