@@ -3,12 +3,12 @@ require 'test_helper'
 class CountryTest < Test::Unit::TestCase
   context "English" do
     setup do
-      Coder.i18n = :eng
+      Decoder.i18n = :eng
     end
     
     context "Loading the YAML" do
       setup do
-        @country = Coder::Country.new(:code => "US", :name => "United States")
+        @country = Decoder::Country.new(:code => "US", :name => "United States")
       end
 
       should "load yaml/states/us/eng.yml" do
@@ -25,44 +25,44 @@ class CountryTest < Test::Unit::TestCase
     
     context "a new object" do
       should "load the yaml" do
-        Coder::Country.any_instance.expects(:load_yaml)
-        Coder::Country.new(:code => "US", :name => "United States")
+        Decoder::Country.any_instance.expects(:load_yaml)
+        Decoder::Country.new(:code => "US", :name => "United States")
       end
     end
     
     context "Getting a state" do
       setup do
-        @country = Coder::Country.new(:code => "US", :name => "United States")
+        @country = Decoder::Country.new(:code => "US", :name => "United States")
       end
       
       should "return a state object of \"Massachusetts\" for :MA" do
         state = @country[:MA]
-        assert_equal Coder::State, state.class
+        assert_equal Decoder::State, state.class
         assert_equal "Massachusetts", state.to_s
       end
       
       should "return a state object of \"Massachusetts\" for :ma" do
         state = @country[:ma]
-        assert_equal Coder::State, state.class
+        assert_equal Decoder::State, state.class
         assert_equal "Massachusetts", state.to_s
       end
 
       should "return a state object of \"Massachusetts\" for \"MA\"" do
         state = @country["MA"]
-        assert_equal Coder::State, state.class
+        assert_equal Decoder::State, state.class
         assert_equal "Massachusetts", state.to_s
       end
 
       should "return a state object of \"Massachusetts\" for \"ma\"" do
         state = @country["ma"]
-        assert_equal Coder::State, state.class
+        assert_equal Decoder::State, state.class
         assert_equal "Massachusetts", state.to_s
       end
 
     end
     
     should "return 'United States' for #to_s" do
-      country = Coder::Country.new(:code => "US", :name => "United States")
+      country = Decoder::Country.new(:code => "US", :name => "United States")
       assert_equal "United States", country.to_s
     end
   end

@@ -1,4 +1,4 @@
-module Coder
+module Decoder
   class State
     attr_accessor :code, :name
     

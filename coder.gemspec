@@ -4,13 +4,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{coder}
+  s.name = %qdecoder}
   s.version = "0.3.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Cardarella"]
   s.date = %q{2009-08-31}
-  s.description = %q{Coder}
+  s.description = %q{Decoder}
   s.email = %q{bcardarella@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,27 +23,27 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "coder.gemspec",
-     "lib/coder.rb",
+     decoder.gemspec",
+     "libdecoder.rb",
      "lib/countries/countries.rb",
      "lib/countries/country.rb",
      "lib/i18n/countries/eng.yml",
      "lib/i18n/states/us/eng.yml",
      "lib/states/state.rb",
-     "test/coder_test.rb",
+     "testdecoder_test.rb",
      "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
      "test/states/state_test.rb",
      "test/test_helper.rb"
   ]
   s.has_rdoc = true
-  s.homepage = %q{http://github.com/bcardarella/coder}
+  s.homepage = %q{http://github.com/bcardarelladecoder}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.2}
-  s.summary = %q{Coder}
+  s.summary = %q{Decoder}
   s.test_files = [
-    "test/coder_test.rb",
+    "testdecoder_test.rb",
      "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
      "test/states/state_test.rb",

@@ -3,12 +3,12 @@ require 'test_helper'
 class StateTest < Test::Unit::TestCase
   context "English" do
     setup do
-      Coder.i18n = :eng
+      Decoder.i18n = :eng
     end
     
     context "Getters" do
       setup do
-        @state = Coder::State.new(:code => "MA", :name => "Massachusetts")
+        @state = Decoder::State.new(:code => "MA", :name => "Massachusetts")
       end
 
       should "return 'Massachusetts' for #to_s" do

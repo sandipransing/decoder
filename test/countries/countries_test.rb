@@ -3,12 +3,12 @@ require 'test_helper'
 class CountriesTest < Test::Unit::TestCase
   context "English" do
     setup do
-      Coder.i18n = :eng
+      Decoder.i18n = :eng
     end
     
     context "Loading the YAML" do
       setup do
-        @countries = Coder::Countries.new
+        @countries = Decoder::Countries.new
       end
 
       should "load yaml/countries/eng.yml" do
@@ -24,37 +24,37 @@ class CountriesTest < Test::Unit::TestCase
     
     context "a new object" do
       should "load the yaml" do
-        Coder::Countries.any_instance.expects(:load_yaml)
-        Coder::Countries.new
+        Decoder::Countries.any_instance.expects(:load_yaml)
+        Decoder::Countries.new
       end
     end
     
     context "Getting a country" do
       setup do
-        @countries = Coder::Countries.new
+        @countries = Decoder::Countries.new
       end
       
       should "return a country object of \"United States\" for :US" do
         country = @countries[:US]
-        assert_equal Coder::Country, country.class
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for :us" do
         country = @countries[:us]
-        assert_equal Coder::Country, country.class
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for \"US\"" do
         country = @countries["US"]
-        assert_equal Coder::Country, country.class
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for \"us\"" do
         country = @countries["us"]
-        assert_equal Coder::Country, country.class
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
@@ -63,26 +63,26 @@ class CountriesTest < Test::Unit::TestCase
     context "Getting a country alternate form" do
 
       should "return a country object of \"United States\" for :US" do
-        country = Coder::Countries[:US]
-        assert_equal Coder::Country, country.class
+        country = Decoder::Countries[:US]
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for :us" do
-        country = Coder::Countries[:us]
-        assert_equal Coder::Country, country.class
+        country = Decoder::Countries[:us]
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for \"US\"" do
-        country = Coder::Countries["US"]
-        assert_equal Coder::Country, country.class
+        country = Decoder::Countries["US"]
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 
       should "return a country object of \"United States\" for \"us\"" do
-        country = Coder::Countries["us"]
-        assert_equal Coder::Country, country.class
+        country = Decoder::Countries["us"]
+        assert_equal Decoder::Country, country.class
         assert_equal "United States", country.to_s
       end
 

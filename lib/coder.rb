@@ -2,7 +2,7 @@ require 'countries/countries'
 require 'countries/country'
 require 'states/state'
 
-module Coder
+module Decoder
   def self.i18n
     @i18n ||= :eng
   end

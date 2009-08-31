@@ -1,4 +1,4 @@
-module Coder
+module Decoder
   class Country
     attr_accessor :states, :code, :name
     
@@ -14,13 +14,13 @@ module Coder
     end
     
     def yaml_file_name
-      "#{File.dirname(__FILE__)}/../i18n/states/#{code.downcase}/#{Coder.i18n}.yml"
+      "#{File.dirname(__FILE__)}/../i18n/states/#{code.downcase}/#{Decoder.i18n}.yml"
     end
     
     def [](_code)
       _code = _code.to_s.upcase.to_sym
       state = states[_code]
-      Coder::State.new(:code => _code.to_s, :name => state)
+      Decoder::State.new(:code => _code.to_s, :name => state)
     end
     
     def to_s

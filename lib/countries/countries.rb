@@ -1,4 +1,4 @@
-module Coder
+module Decoder
   class Countries
     attr_accessor :countries
     
@@ -11,13 +11,13 @@ module Coder
     end
     
     def yaml_file_name
-      "#{File.dirname(__FILE__)}/../i18n/countries/#{Coder.i18n}.yml"
+      "#{File.dirname(__FILE__)}/../i18n/countries/#{Decoder.i18n}.yml"
     end
     
     def [](_code)
       _code    = _code.to_s.upcase.to_sym
       country = countries[_code]
-      Coder::Country.new(:code => _code.to_s, :name => country)
+      Decoder::Country.new(:code => _code.to_s, :name => country)
     end
     
     def self.[](_code)
