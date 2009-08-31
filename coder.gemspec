@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "coder.gemspec",
      "lib/coder.rb",
      "lib/countries/countries.rb",
      "lib/countries/country.rb",
