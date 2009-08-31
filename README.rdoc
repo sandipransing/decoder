@@ -3,8 +3,7 @@
 = Usage
 
  >> Coder.i18n = :eng
- >> countries = Coder::Countries.new
- >> country = countries[:US]
+ >> country = Coder::Countries[:US]
  >> country.to_s
  => "United States"
  >> state = country[:MA]
