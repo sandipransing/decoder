@@ -4,8 +4,8 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %qdecoder}
-  s.version = "0.3.0"
+  s.name = %q{decoder}
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Cardarella"]
@@ -23,16 +23,16 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     decoder.gemspec",
-     "libdecoder.rb",
+     "decoder.gemspec",
      "lib/countries/countries.rb",
      "lib/countries/country.rb",
+     "lib/decoder.rb",
      "lib/i18n/countries/eng.yml",
      "lib/i18n/states/us/eng.yml",
      "lib/states/state.rb",
-     "testdecoder_test.rb",
      "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
+     "test/decoder_test.rb",
      "test/states/state_test.rb",
      "test/test_helper.rb"
   ]
@@ -43,9 +43,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.2}
   s.summary = %q{Decoder}
   s.test_files = [
-    "testdecoder_test.rb",
-     "test/countries/countries_test.rb",
+    "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
+     "test/decoder_test.rb",
      "test/states/state_test.rb",
      "test/test_helper.rb"
   ]
