@@ -1,6 +1,8 @@
 module Decoder
   class Country
     attr_accessor :states, :code, :name
+    alias_method :provinces, :states
+    alias_method :territories, :states
     
     def initialize(args)
       self.code = args[:code].to_s
