@@ -1,6 +1,9 @@
 = coder
 
-Description goes here.
+= i18n
+ When adding a new language please use the ISO 639-2 Code 3-letter standard.
+ You can find the appropriate code for a given language here:
+ http://www.loc.gov/standards/iso639-2/php/code_list.php
 
 == Note on Patches/Pull Requests
  
