@@ -18,9 +18,9 @@ module Decoder
     end
     
     def [](_code)
-      _code = _code.to_s.upcase.to_sym
+      _code = _code.to_s.upcase
       state = states[_code]
-      Decoder::State.new(:code => _code.to_s, :name => state)
+      Decoder::State.new(:code => _code, :name => state)
     end
     
     def to_s

@@ -15,9 +15,9 @@ module Decoder
     end
     
     def [](_code)
-      _code    = _code.to_s.upcase.to_sym
+      _code    = _code.to_s.upcase
       country = countries[_code]
-      Decoder::Country.new(:code => _code.to_s, :name => country)
+      Decoder::Country.new(:code => _code, :name => country)
     end
     
     def self.[](_code)

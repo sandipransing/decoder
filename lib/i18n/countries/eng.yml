@@ -1,252 +1,252 @@
 --- 
-:UY: Uruguay
-:NP: Nepal
-:BS: Bahamas
-:HT: Haiti
-:LK: Sri Lanka
-:SE: Sweden
-:DZ: Algeria
-:TW: Taiwan
-:GU: Guam
-:NC: New Caledonia
-:BH: Bahrain
-:RS: Serbia
-:CY: Cyprus
-:KW: Kuwait
-:MU: Mauritius
-:AZ: Azerbaijan
-:TM: Turkmenistan
-:GM: Gambia
-:ZR: Zaire
-:KG: Kyrgyzstan
-:PS: Palestinian Territory, Occupied
-:CN: China
-:TC: Turks and Caicos Islands
-:GB: Great Britain (UK)
-:MN: Mongolia
-:AQ: Antarctica
-:WF: Wallis and Futuna Islands
-:PG: Papua New Guinea
-:CF: Central African Republic
-:IS: Iceland
-:MD: Moldova
-:AF: Afghanistan
-:SO: Somalia
-:FJ: Fiji
-:VA: Vatican City State (Holy See)
-:ID: Indonesia
-:NT: Neutral Zone
-:BV: Bouvet Island
-:SH: St. Helena
-:EE: Estonia
-:LS: Lesotho
-:UA: Ukraine
-:NF: Norfolk Island
-:BJ: Benin
-:GY: Guyana
-:KZ: Kazakhstan
-:RW: Rwanda
-:DE: Germany
-:GP: Guadeloupe
-:MW: Malawi
-:BB: Barbados
-:TO: Tonga
-:CR: Costa Rica
-:KI: Kiribati
-:PW: Palau
-:AS: American Samoa
-:TF: French Southern Territories
-:GE: Georgia
-:IO: British Indian Ocean Territory
-:MP: Northern Mariana Islands
-:YE: Yemen
-:PK: Pakistan
-:CH: Switzerland
-:JE: Jersey
-:MG: Madagascar
-:AI: Anguilla
-:ST: Sao Tome and Principe
-:FM: Micronesia
-:VE: Venezuela
-:IL: Israel
-:NZ: New Zealand (Aotearoa)
-:BY: Belarus
-:SJ: Svalbard & Jan Mayen Islands
-:EH: Western Sahara
-:LU: Luxembourg
-:UK: United Kingdom
-:NI: Nicaragua
-:BN: Brunei Darussalam
-:HM: Heard and McDonald Islands
-:LB: Lebanon
-:SB: Solomon Islands
-:DK: Denmark
-:TR: Turkey
-:GR: Greece
-:MY: Malaysia
-:BE: Belgium
-:QA: Qatar
-:CU: Cuba
-:KN: Saint Kitts and Nevis
-:MR: Mauritania
-:AU: Australia
-:TH: Thailand
-:GH: Ghana
-:YU: Yugoslavia (former)
-:JO: Jordan
-:PM: St. Pierre and Miquelon
-:CK: Cook Islands
-:SV: El Salvador
-:FR: France
-:MK: F.Y.R.O.M. (Macedonia)
-:AM: Armenia
-:VI: Virgin Islands (U.S.)
-:PA: Panama
-:CA: Canada
-:IN: India
-:LY: Libya
-:AC: Ascension Island
-:SL: Sierra Leone
-:ES: Spain
-:US: United States
-:HR: Croatia (Hrvatska)
-:NO: Norway
-:BR: Brazil
-:SD: Sudan
-:DO: Dominican Republic
-:LI: Liechtenstein
-:TV: Tuvalu
-:NA: Namibia
-:BG: Bulgaria
-:GT: Guatemala
-:KR: Korea (South)
-:RO: Romania
-:CX: Christmas Island
-:TK: Tokelau
-:GL: Greenland
-:MT: Malta
-:AX: Aland Islands
-:ZM: Zambia
-:PR: Puerto Rico
-:CM: Cameroon
-:KE: Kenya
-:MM: Myanmar
-:AO: Angola
-:SZ: Swaziland
-:GA: Gabon
-:VU: Vanuatu
-:IR: Iran
-:PF: French Polynesia
-:CD: Congo, Democratic Republic
-:FI: Finland
-:MC: Monaco
-:AE: United Arab Emirates
-:SN: Senegal
-:UZ: Uzbekistan
-:BT: Bhutan
-:HU: Hungary
-:NR: Nauru
-:SG: Singapore
-:EC: Ecuador
-:LR: Liberia
-:TZ: Tanzania
-:NE: Niger
-:BI: Burundi
-:GW: Guinea-Bissau
-:KY: Cayman Islands
-:RU: Russian Federation
-:CZ: Czech Republic
-:TN: Tunisia
-:GN: Guinea
-:MV: Maldives
-:BA: Bosnia and Herzegovina
-:ZW: Zimbabwe
-:PT: Portugal
-:CO: Colombia
-:KH: Cambodia
-:MO: Macau
-:AR: Argentina
-:TD: Chad
-:GD: Grenada
-:WS: Samoa
-:IT: Italy
-:PH: Philippines
-:CG: Congo
-:SR: Suriname
-:FK: Falkland Islands (Malvinas)
-:ME: Montenegro
-:AG: Antigua and Barbuda
-:VC: Saint Vincent & the Grenadines
-:NU: Niue
-:BW: Botswana
-:IE: Ireland
-:LT: Lithuania
-:SI: Slovenia
-:EG: Egypt
-:UG: Uganda
-:HK: Hong Kong
-:NG: Nigeria
-:BM: Bermuda
-:SA: Saudi Arabia
-:DJ: Djibouti
-:LA: Laos
-:TP: East Timor
-:MX: Mexico
-:BD: Bangladesh
-:GQ: Equatorial Guinea
-:KM: Comoros
-:PY: Paraguay
-:CS: Czechoslovakia (former)
-:TG: Togo
-:GF: French Guiana
-:MQ: Martinique
-:AT: Austria
-:YT: Mayotte
-:PL: Poland
-:CI: Cote D'Ivoire (Ivory Coast)
-:JM: Jamaica
-:MH: Marshall Islands
-:AL: Albania
-:SU: USSR (former)
-:FO: Faroe Islands
-:VG: British Virgin Islands
-:IM: Isle of Man
-:OM: Oman
-:BZ: Belize
-:SK: Slovak Republic
-:ER: Eritrea
-:LV: Latvia
-:UM: US Minor Outlying Islands
-:NL: Netherlands
-:BO: Bolivia
-:HN: Honduras
-:LC: Saint Lucia
-:SC: Seychelles
-:DM: Dominica
-:TT: Trinidad and Tobago
-:GS: S. Georgia and S. Sandwich Isls.
-:MZ: Mozambique
-:BF: Burkina Faso
-:CV: Cape Verde
-:KP: Korea (North)
-:RE: Reunion
-:AW: Aruba
-:TJ: Tajikistan
-:GI: Gibraltar
-:MS: Montserrat
-:ZA: South Africa
-:PN: Pitcairn
-:CL: Chile
-:JP: Japan
-:ML: Mali
-:AN: Netherlands Antilles
-:SY: Syria
-:FX: France, Metropolitan
-:VN: Viet Nam
-:IQ: Iraq
-:PE: Peru
-:CC: Cocos (Keeling) Islands
-:SM: San Marino
-:ET: Ethiopia
-:MA: Morocco
-:AD: Andorra
+UY: Uruguay
+NP: Nepal
+BS: Bahamas
+HT: Haiti
+LK: Sri Lanka
+SE: Sweden
+DZ: Algeria
+TW: Taiwan
+GU: Guam
+NC: New Caledonia
+BH: Bahrain
+RS: Serbia
+CY: Cyprus
+KW: Kuwait
+MU: Mauritius
+AZ: Azerbaijan
+TM: Turkmenistan
+GM: Gambia
+ZR: Zaire
+KG: Kyrgyzstan
+PS: Palestinian Territory, Occupied
+CN: China
+TC: Turks and Caicos Islands
+GB: Great Britain (UK)
+MN: Mongolia
+AQ: Antarctica
+WF: Wallis and Futuna Islands
+PG: Papua New Guinea
+CF: Central African Republic
+IS: Iceland
+MD: Moldova
+AF: Afghanistan
+SO: Somalia
+FJ: Fiji
+VA: Vatican City State (Holy See)
+ID: Indonesia
+NT: Neutral Zone
+BV: Bouvet Island
+SH: St. Helena
+EE: Estonia
+LS: Lesotho
+UA: Ukraine
+NF: Norfolk Island
+BJ: Benin
+GY: Guyana
+KZ: Kazakhstan
+RW: Rwanda
+DE: Germany
+GP: Guadeloupe
+MW: Malawi
+BB: Barbados
+TO: Tonga
+CR: Costa Rica
+KI: Kiribati
+PW: Palau
+AS: American Samoa
+TF: French Southern Territories
+GE: Georgia
+IO: British Indian Ocean Territory
+MP: Northern Mariana Islands
+YE: Yemen
+PK: Pakistan
+CH: Switzerland
+JE: Jersey
+MG: Madagascar
+AI: Anguilla
+ST: Sao Tome and Principe
+FM: Micronesia
+VE: Venezuela
+IL: Israel
+NZ: New Zealand (Aotearoa)
+BY: Belarus
+SJ: Svalbard & Jan Mayen Islands
+EH: Western Sahara
+LU: Luxembourg
+UK: United Kingdom
+NI: Nicaragua
+BN: Brunei Darussalam
+HM: Heard and McDonald Islands
+LB: Lebanon
+SB: Solomon Islands
+DK: Denmark
+TR: Turkey
+GR: Greece
+MY: Malaysia
+BE: Belgium
+QA: Qatar
+CU: Cuba
+KN: Saint Kitts and Nevis
+MR: Mauritania
+AU: Australia
+TH: Thailand
+GH: Ghana
+YU: Yugoslavia (former)
+JO: Jordan
+PM: St. Pierre and Miquelon
+CK: Cook Islands
+SV: El Salvador
+FR: France
+MK: F.Y.R.O.M. (Macedonia)
+AM: Armenia
+VI: Virgin Islands (U.S.)
+PA: Panama
+CA: Canada
+IN: India
+LY: Libya
+AC: Ascension Island
+SL: Sierra Leone
+ES: Spain
+US: United States
+HR: Croatia (Hrvatska)
+NO: Norway
+BR: Brazil
+SD: Sudan
+DO: Dominican Republic
+LI: Liechtenstein
+TV: Tuvalu
+NA: Namibia
+BG: Bulgaria
+GT: Guatemala
+KR: Korea (South)
+RO: Romania
+CX: Christmas Island
+TK: Tokelau
+GL: Greenland
+MT: Malta
+AX: Aland Islands
+ZM: Zambia
+PR: Puerto Rico
+CM: Cameroon
+KE: Kenya
+MM: Myanmar
+AO: Angola
+SZ: Swaziland
+GA: Gabon
+VU: Vanuatu
+IR: Iran
+PF: French Polynesia
+CD: Congo, Democratic Republic
+FI: Finland
+MC: Monaco
+AE: United Arab Emirates
+SN: Senegal
+UZ: Uzbekistan
+BT: Bhutan
+HU: Hungary
+NR: Nauru
+SG: Singapore
+EC: Ecuador
+LR: Liberia
+TZ: Tanzania
+NE: Niger
+BI: Burundi
+GW: Guinea-Bissau
+KY: Cayman Islands
+RU: Russian Federation
+CZ: Czech Republic
+TN: Tunisia
+GN: Guinea
+MV: Maldives
+BA: Bosnia and Herzegovina
+ZW: Zimbabwe
+PT: Portugal
+CO: Colombia
+KH: Cambodia
+MO: Macau
+AR: Argentina
+TD: Chad
+GD: Grenada
+WS: Samoa
+IT: Italy
+PH: Philippines
+CG: Congo
+SR: Suriname
+FK: Falkland Islands (Malvinas)
+ME: Montenegro
+AG: Antigua and Barbuda
+VC: Saint Vincent & the Grenadines
+NU: Niue
+BW: Botswana
+IE: Ireland
+LT: Lithuania
+SI: Slovenia
+EG: Egypt
+UG: Uganda
+HK: Hong Kong
+NG: Nigeria
+BM: Bermuda
+SA: Saudi Arabia
+DJ: Djibouti
+LA: Laos
+TP: East Timor
+MX: Mexico
+BD: Bangladesh
+GQ: Equatorial Guinea
+KM: Comoros
+PY: Paraguay
+CS: Czechoslovakia (former)
+TG: Togo
+GF: French Guiana
+MQ: Martinique
+AT: Austria
+YT: Mayotte
+PL: Poland
+CI: Cote D'Ivoire (Ivory Coast)
+JM: Jamaica
+MH: Marshall Islands
+AL: Albania
+SU: USSR (former)
+FO: Faroe Islands
+VG: British Virgin Islands
+IM: Isle of Man
+OM: Oman
+BZ: Belize
+SK: Slovak Republic
+ER: Eritrea
+LV: Latvia
+UM: US Minor Outlying Islands
+NL: Netherlands
+BO: Bolivia
+HN: Honduras
+LC: Saint Lucia
+SC: Seychelles
+DM: Dominica
+TT: Trinidad and Tobago
+GS: S. Georgia and S. Sandwich Isls.
+MZ: Mozambique
+BF: Burkina Faso
+CV: Cape Verde
+KP: Korea (North)
+RE: Reunion
+AW: Aruba
+TJ: Tajikistan
+GI: Gibraltar
+MS: Montserrat
+ZA: South Africa
+PN: Pitcairn
+CL: Chile
+JP: Japan
+ML: Mali
+AN: Netherlands Antilles
+SY: Syria
+FX: France, Metropolitan
+VN: Viet Nam
+IQ: Iraq
+PE: Peru
+CC: Cocos (Keeling) Islands
+SM: San Marino
+ET: Ethiopia
+MA: Morocco
+AD: Andorra
