@@ -15,7 +15,7 @@ module Decoder
     end
     
     def [](_code)
-      _code    = _code.to_s.upcase
+      _code   = _code.to_s.upcase
       country = countries[_code]
       Decoder::Country.new(:code => _code, :name => country)
     end
