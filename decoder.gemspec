@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{decoder}
-  s.version = "0.5.0"
+  s.version = "0.5.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Cardarella"]
-  s.date = %q{2009-08-31}
+  s.date = %q{2009-09-01}
   s.description = %q{Decoder}
   s.email = %q{bcardarella@gmail.com}
   s.extra_rdoc_files = [
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "decoder.gemspec",
+     "lib/common_methods.rb",
      "lib/countries/countries.rb",
      "lib/countries/country.rb",
      "lib/decoder.rb",
@@ -32,6 +33,7 @@ Gem::Specification.new do |s|
      "lib/i18n/states/ca/eng.yml",
      "lib/i18n/states/us/eng.yml",
      "lib/states/state.rb",
+     "test/common_methods_test.rb",
      "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
      "test/decoder_test.rb",
@@ -45,7 +47,8 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.3.2}
   s.summary = %q{Decoder}
   s.test_files = [
-    "test/countries/countries_test.rb",
+    "test/common_methods_test.rb",
+     "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
      "test/decoder_test.rb",
      "test/states/state_test.rb",
