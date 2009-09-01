@@ -1,3 +1,4 @@
+require 'common_methods'
 require 'countries/countries'
 require 'countries/country'
 require 'states/state'

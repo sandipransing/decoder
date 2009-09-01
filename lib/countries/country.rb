@@ -1,5 +1,6 @@
 module Decoder
   class Country
+    include ::CommonMethods
     attr_accessor :states, :code, :name
     alias_method :provinces, :states
     alias_method :territories, :states
@@ -23,10 +24,6 @@ module Decoder
       _code = _code.to_s.upcase
       state = states[_code]
       Decoder::State.new(:code => _code, :name => state)
-    end
-    
-    def to_s
-      name
     end
   end
 end

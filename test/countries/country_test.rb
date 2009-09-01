@@ -1,6 +1,11 @@
 require 'test_helper'
 
 class CountryTest < Test::Unit::TestCase
+
+  should "include 'Common Methods' module" do
+    assert_contains Decoder::State.included_modules, CommonMethods
+  end
+
   context "English" do
     setup do
       Decoder.i18n = :eng
@@ -38,33 +43,25 @@ class CountryTest < Test::Unit::TestCase
       should "return a state object of \"Massachusetts\" for :MA" do
         state = @country[:MA]
         assert_equal Decoder::State, state.class
-        assert_equal "Massachusetts", state.to_s
       end
       
       should "return a state object of \"Massachusetts\" for :ma" do
         state = @country[:ma]
         assert_equal Decoder::State, state.class
-        assert_equal "Massachusetts", state.to_s
       end
 
       should "return a state object of \"Massachusetts\" for \"MA\"" do
         state = @country["MA"]
         assert_equal Decoder::State, state.class
-        assert_equal "Massachusetts", state.to_s
       end
 
       should "return a state object of \"Massachusetts\" for \"ma\"" do
         state = @country["ma"]
         assert_equal Decoder::State, state.class
-        assert_equal "Massachusetts", state.to_s
       end
 
     end
     
-    should "return 'United States' for #to_s" do
-      country = Decoder::Country.new(:code => "US", :name => "United States")
-      assert_equal "United States", country.to_s
-    end
   end
   
   context "#states aliases" do

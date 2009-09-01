@@ -1,6 +1,11 @@
 require 'test_helper'
 
 class StateTest < Test::Unit::TestCase
+
+  should "include 'Common Methods' module" do
+    assert_contains Decoder::State.included_modules, CommonMethods
+  end
+
   context "English" do
     setup do
       Decoder.i18n = :eng
@@ -9,10 +14,6 @@ class StateTest < Test::Unit::TestCase
     context "Getters" do
       setup do
         @state = Decoder::State.new(:code => "MA", :name => "Massachusetts")
-      end
-
-      should "return 'Massachusetts' for #to_s" do
-        assert_equal "Massachusetts", @state.to_s
       end
 
       should "return 'Massachusetts' for #name" do
