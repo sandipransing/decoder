@@ -11,14 +11,15 @@ class CountriesTest < Test::Unit::TestCase
         @countries = Decoder::Countries.new
       end
 
-      should "load yaml/countries/en.yml" do
+      should "load locales/en.yml" do
         assert_match /en.yml/, @countries.yaml_file_name
       end
       
       should "set the #countries with the country data" do
-        YAML.expects(:load_file).returns({:US => "United States"})
+        YAML.expects(:load_file).returns({:en => {"US" => {:name => "United States",
+              :states => {}}}})
         @countries.load_yaml
-        assert "United States", @countries.countries[:US]
+        assert "United States", @countries.countries["US"][:name]
       end
     end
     

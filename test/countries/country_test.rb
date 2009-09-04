@@ -18,11 +18,11 @@ class CountryTest < Test::Unit::TestCase
 
       should "load yaml/states/us/en.yml" do
         assert_match /en.yml/, @country.yaml_file_name
-        assert_match /us/, @country.yaml_file_name
       end
       
       should "set the #states with the US state data" do
-        YAML.expects(:load_file).returns({:MA => "Massachusetts"})
+        YAML.expects(:load_file).returns({:en => {"US" => {:name => "United States",
+              :states => {"MA" => "Massachusetts"}}}})
         @country.load_yaml
         assert "Massachusetts", @country.states[:MA]
       end
