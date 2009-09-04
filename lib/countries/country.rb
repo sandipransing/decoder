@@ -13,11 +13,11 @@ module Decoder
     end
     
     def load_yaml
-      self.states = YAML.load_file(yaml_file_name)
+      self.states = YAML.load_file(yaml_file_name)[Decoder.i18n][self.code][:states]
     end
     
     def yaml_file_name
-      "#{File.dirname(__FILE__)}/../i18n/states/#{code.downcase}/#{Decoder.i18n}.yml"
+      "#{File.dirname(__FILE__)}/../locales/#{Decoder.i18n}.yml"
     end
     
     def [](_code)

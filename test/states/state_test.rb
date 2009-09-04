@@ -8,7 +8,7 @@ class StateTest < Test::Unit::TestCase
 
   context "English" do
     setup do
-      Decoder.i18n = :eng
+      Decoder.i18n = :en
     end
     
     context "Getters" do

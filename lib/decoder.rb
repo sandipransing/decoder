@@ -5,7 +5,7 @@ require 'states/state'
 
 module Decoder
   def self.i18n
-    @i18n ||= :eng
+    @i18n ||= :en
   end
   
   def self.i18n=(code)

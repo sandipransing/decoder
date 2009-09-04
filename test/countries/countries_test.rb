@@ -3,7 +3,7 @@ require 'test_helper'
 class CountriesTest < Test::Unit::TestCase
   context "English" do
     setup do
-      Decoder.i18n = :eng
+      Decoder.i18n = :en
     end
     
     context "Loading the YAML" do
@@ -11,14 +11,15 @@ class CountriesTest < Test::Unit::TestCase
         @countries = Decoder::Countries.new
       end
 
-      should "load yaml/countries/eng.yml" do
-        assert_match /eng.yml/, @countries.yaml_file_name
+      should "load locales/en.yml" do
+        assert_match /en.yml/, @countries.yaml_file_name
       end
       
       should "set the #countries with the country data" do
-        YAML.expects(:load_file).returns({:US => "United States"})
+        YAML.expects(:load_file).returns({:en => {"US" => {:name => "United States",
+              :states => {}}}})
         @countries.load_yaml
-        assert "United States", @countries.countries[:US]
+        assert "United States", @countries.countries["US"][:name]
       end
     end
     

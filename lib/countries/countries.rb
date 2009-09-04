@@ -7,17 +7,17 @@ module Decoder
     end
     
     def load_yaml
-      self.countries = YAML.load_file(yaml_file_name)
+      self.countries = YAML.load_file(yaml_file_name)[Decoder.i18n]
     end
     
     def yaml_file_name
-      "#{File.dirname(__FILE__)}/../i18n/countries/#{Decoder.i18n}.yml"
+      "#{File.dirname(__FILE__)}/../locales/#{Decoder.i18n}.yml"
     end
     
     def [](_code)
       _code   = _code.to_s.upcase
       country = countries[_code]
-      Decoder::Country.new(:code => _code, :name => country)
+      Decoder::Country.new(:code => _code, :name => country[:name])
     end
     
     def self.[](_code)
