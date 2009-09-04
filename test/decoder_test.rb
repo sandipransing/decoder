@@ -24,7 +24,7 @@ class DecoderTest < Test::Unit::TestCase
       locale = Decoder.locale
       Decoder.locale
       Decoder::Countries.new
-      Decoder::Country.new(:state => "US", :name => "United States")
+      Decoder::Country.new(:code => "US", :name => "United States")
     end
   end
 end

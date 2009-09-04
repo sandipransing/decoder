@@ -46,18 +46,28 @@ class CountryTest < Test::Unit::TestCase
       end
 
     end
-    
-    context "#states aliases" do
+   
+    context "#states" do
       setup do
         @country = Decoder::Country.new(:code => "US", :name => "United States")
       end
-    
-      should "be equal for #states and #provinces" do
-        assert_equal @country.states, @country.provinces
+      
+      should "a hash of states" do
+        assert_equal "Massachusetts", @country.states["MA"]
       end
-    
-      should "be equal for #states and #territories" do
-        assert_equal @country.states, @country.territories
+      
+      context "aliases" do
+        should "be equal for #states and #counties" do
+          assert_equal @country.states, @country.counties
+        end        
+          
+        should "be equal for #states and #provinces" do
+          assert_equal @country.states, @country.provinces
+        end
+          
+        should "be equal for #states and #territories" do
+          assert_equal @country.states, @country.territories
+        end
       end
     end
     

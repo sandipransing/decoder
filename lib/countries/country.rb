@@ -6,7 +6,7 @@ module Decoder
     def initialize(args)
       self.code   = args[:code].to_s
       self.name   = args[:name]
-      self.states = Decoder.locale[Decoder.i18n][self.code]
+      self.states = Decoder.locale[Decoder.i18n][self.code][:states]
     end
     
     def states
@@ -16,7 +16,8 @@ module Decoder
     def states=(_states)
       @states = _states
     end
-        
+
+    alias_method :counties, :states        
     alias_method :provinces, :states
     alias_method :territories, :states
     
