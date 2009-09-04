@@ -1,24 +1,24 @@
 module Decoder
   class Country
     include ::CommonMethods
-    attr_accessor :states, :code, :name
-    alias_method :provinces, :states
-    alias_method :territories, :states
+    attr_accessor :code, :name
     
     def initialize(args)
-      self.code = args[:code].to_s
-      self.name = args[:name]
-      
-      self.load_yaml
+      self.code   = args[:code].to_s
+      self.name   = args[:name]
+      self.states = Decoder.locale[Decoder.i18n][self.code]
     end
     
-    def load_yaml
-      self.states = YAML.load_file(yaml_file_name)[Decoder.i18n][self.code][:states]
+    def states
+      @states
     end
     
-    def yaml_file_name
-      "#{File.dirname(__FILE__)}/../locales/#{Decoder.i18n}.yml"
+    def states=(_states)
+      @states = _states
     end
+        
+    alias_method :provinces, :states
+    alias_method :territories, :states
     
     def [](_code)
       _code = _code.to_s.upcase

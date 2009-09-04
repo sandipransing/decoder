@@ -6,32 +6,17 @@ class CountryTest < Test::Unit::TestCase
     assert_contains Decoder::State.included_modules, CommonMethods
   end
 
-  context "English" do
+  context "English for US" do
     setup do
       Decoder.i18n = :en
     end
     
-    context "Loading the YAML" do
-      setup do
-        @country = Decoder::Country.new(:code => "US", :name => "United States")
-      end
-
-      should "load yaml/states/us/en.yml" do
-        assert_match /en.yml/, @country.yaml_file_name
-      end
-      
-      should "set the #states with the US state data" do
-        YAML.expects(:load_file).returns({:en => {"US" => {:name => "United States",
-              :states => {"MA" => "Massachusetts"}}}})
-        @country.load_yaml
-        assert "Massachusetts", @country.states[:MA]
-      end
-    end
-    
-    context "a new object" do
+    context "A new country" do
       should "load the yaml" do
-        Decoder::Country.any_instance.expects(:load_yaml)
-        Decoder::Country.new(:code => "US", :name => "United States")
+        Decoder.expects(:load_yaml).returns({:en => {"US" => {:name => "United States", :states => {"MA" => "Massachusetts"}}}})
+
+        country = Decoder::Country.new(:code => "US", :name => "United States")
+        assert_not_nil country.states
       end
     end
     
@@ -62,20 +47,20 @@ class CountryTest < Test::Unit::TestCase
 
     end
     
-  end
-  
-  context "#states aliases" do
-    setup do
-      @country = Decoder::Country.new(:code => "US", :name => "United States")
+    context "#states aliases" do
+      setup do
+        @country = Decoder::Country.new(:code => "US", :name => "United States")
+      end
+    
+      should "be equal for #states and #provinces" do
+        assert_equal @country.states, @country.provinces
+      end
+    
+      should "be equal for #states and #territories" do
+        assert_equal @country.states, @country.territories
+      end
     end
     
-    should "be equal for #states and #provinces" do
-      assert_equal @country.states, @country.provinces
-    end
-    
-    should "be equal for #states and #territories" do
-      assert_equal @country.states, @country.territories
-    end
   end
   
 end

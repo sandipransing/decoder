@@ -1,32 +1,20 @@
 require 'test_helper'
 
 class CountriesTest < Test::Unit::TestCase
+  should "print '#<#class>" do
+    assert_equal "#<Decoder::Countries>", Decoder::Countries.new.inspect
+  end
+
   context "English" do
     setup do
       Decoder.i18n = :en
     end
     
-    context "Loading the YAML" do
-      setup do
-        @countries = Decoder::Countries.new
-      end
-
-      should "load locales/en.yml" do
-        assert_match /en.yml/, @countries.yaml_file_name
-      end
-      
-      should "set the #countries with the country data" do
-        YAML.expects(:load_file).returns({:en => {"US" => {:name => "United States",
-              :states => {}}}})
-        @countries.load_yaml
-        assert "United States", @countries.countries["US"][:name]
-      end
-    end
-    
     context "a new object" do
       should "load the yaml" do
-        Decoder::Countries.any_instance.expects(:load_yaml)
-        Decoder::Countries.new
+        Decoder.expects(:load_yaml).returns({:en => {"US" => {:name => "United States", :states => {"MA" => "Massachusetts"}}}})
+        countries = Decoder::Countries.new
+        assert_not_nil countries.countries
       end
     end
     

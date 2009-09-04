@@ -1,19 +1,22 @@
 module Decoder
   class Countries
-    attr_accessor :countries
-    
+
     def initialize
-      self.load_yaml
+      self.countries = Decoder.locale[Decoder.i18n]
     end
     
-    def load_yaml
-      self.countries = YAML.load_file(yaml_file_name)[Decoder.i18n]
+    def inspect
+      %{#<#{self.class}>}
+    end
+
+    def countries=(_countries)
+      @countries = _countries
     end
     
-    def yaml_file_name
-      "#{File.dirname(__FILE__)}/../locales/#{Decoder.i18n}.yml"
+    def countries
+      @countries
     end
-    
+
     def [](_code)
       _code   = _code.to_s.upcase
       country = countries[_code]
