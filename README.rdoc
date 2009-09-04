@@ -2,7 +2,7 @@
 
 = Usage
 
- >> Decoder.i18n = :eng
+ >> Decoder.i18n = :en
  >> country = Decoder::Countries[:US]
  >> country.to_s
  => "United States"
@@ -13,7 +13,7 @@
  Currently the yaml files are still quite incomplete. Please fork and populate!
  
 = i18n
- When adding a new language please use the ISO 639-2 Code 3-letter standard.
+ When adding a new language please use the ISO 639-1 Code 2-letter standard.
  You can find the appropriate code for a given language here:
  http://www.loc.gov/standards/iso639-2/php/code_list.php
 
