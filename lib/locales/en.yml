@@ -20,7 +20,7 @@
     :name: Japan
     :states: {}
 
-  NO: 
+  "NO": 
     :name: Norway
     :states: {}
 
@@ -1010,7 +1010,7 @@
     :states: 
       AB: Alberta
       BC: British Columbia
-      true: Ontario
+      "ON": Ontario
       SK: Saskatchewan
       NS: Nova Scotia
       YT: Yukon
