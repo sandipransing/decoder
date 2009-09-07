@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{decoder}
-  s.version = "0.6.3"
+  s.version = "0.6.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian Cardarella"]
-  s.date = %q{2009-09-04}
+  s.date = %q{2009-09-07}
   s.description = %q{Decoder}
   s.email = %q{bcardarella@gmail.com}
   s.extra_rdoc_files = [
@@ -25,11 +25,11 @@ Gem::Specification.new do |s|
      "VERSION",
      "decoder.gemspec",
      "lib/common_methods.rb",
-     "lib/countries/countries.rb",
-     "lib/countries/country.rb",
      "lib/decoder.rb",
+     "lib/decoder/countries.rb",
+     "lib/decoder/country.rb",
+     "lib/decoder/state.rb",
      "lib/locales/en.yml",
-     "lib/states/state.rb",
      "test/common_methods_test.rb",
      "test/countries/countries_test.rb",
      "test/countries/country_test.rb",
