@@ -9,7 +9,7 @@ class CountriesTest < Test::Unit::TestCase
     setup do
       Decoder.i18n = :en
     end
-    
+
     context "a new object" do
       should "load the yaml" do
         Decoder.expects(:load_yaml).returns({:en => {"US" => {:name => "United States", :states => {"MA" => "Massachusetts"}}}})
@@ -17,12 +17,12 @@ class CountriesTest < Test::Unit::TestCase
         assert_not_nil countries.countries
       end
     end
-    
+
     context "Getting a country" do
       setup do
         @countries = Decoder::Countries.new
       end
-      
+
       should "return a country object of \"United States\" for :US" do
         country = @countries[:US]
         assert_equal Decoder::Country, country.class
@@ -48,7 +48,7 @@ class CountriesTest < Test::Unit::TestCase
       end
 
     end
-    
+
     context "Getting a country alternate form" do
 
       should "return a country object of \"United States\" for :US" do
@@ -78,5 +78,5 @@ class CountriesTest < Test::Unit::TestCase
     end
 
   end
-  
+
 end
