@@ -338,7 +338,35 @@
 
   IN: 
     :name: India
-    :states: {}
+    :states:
+      AP: Andhra Pradesh
+      AR: Arunachal Pradesh
+      AS: Assam
+      BR: Bihar
+      CG: Chattisgarh
+      GA: Goa
+      GJ: Gujarat
+      HR: Haryana
+      HP: Himachal Pradesh
+      JK: Jammu & Kashmir
+      JH: Jharkhand
+      KA: Karnataka
+      KL: Kerala
+      MP: Madhya Pradesh
+      MH: Maharashtra
+      MN: Manipur
+      ML: Meghalaya
+      MZ: Mizoram
+      NL: Nagaland
+      OR: Orissa
+      PB: Punjab
+      RJ: Rajasthan
+      SK: Sikkim
+      TN: Tamil Nadu
+      TR: Tripura
+      UL: Uttarakhand
+      UP: Uttar Pradesh
+      WB: West Bengal
 
   LK: 
     :name: Sri Lanka
@@ -760,7 +788,23 @@
 
   DE: 
     :name: Germany
-    :states: {}
+    :states:
+      BW: Baden-Württemberg
+      BY: Bavaria
+      BE: Berlin
+      BB: Brandenburg
+      HB: Bremen
+      HH: Hamburg
+      HE: Hesse
+      MV: Mecklenburg-Vorpommern
+      NI: Lower Saxony
+      NW: North Rhine-Westphalia
+      RP: Rhineland-Palatinate
+      SL: Saarland
+      SN: Saxony
+      ST: Saxony-Anhalt
+      SH: Schleswig-Holstein
+      TH: Thuringia
 
   GB: 
     :name: Great Britain (UK)
