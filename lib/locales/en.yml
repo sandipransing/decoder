@@ -1,342 +1,342 @@
---- 
-:en: 
-  VA: 
+---
+:en:
+  VA:
     :name: Vatican City State (Holy See)
     :states: {}
 
-  ZR: 
+  ZR:
     :name: Zaire
     :states: {}
 
-  CC: 
+  CC:
     :name: Cocos (Keeling) Islands
     :states: {}
 
-  GT: 
+  GT:
     :name: Guatemala
     :states: {}
 
-  JP: 
+  JP:
     :name: Japan
     :states: {}
 
-  "NO": 
+  "NO":
     :name: Norway
     :states: {}
 
-  SE: 
+  SE:
     :name: Sweden
     :states: {}
 
-  TZ: 
+  TZ:
     :name: Tanzania
     :states: {}
 
-  CD: 
+  CD:
     :name: Congo, Democratic Republic
     :states: {}
 
-  GU: 
+  GU:
     :name: Guam
     :states: {}
 
-  MM: 
+  MM:
     :name: Myanmar
     :states: {}
 
-  DZ: 
+  DZ:
     :name: Algeria
     :states: {}
 
-  MN: 
+  MN:
     :name: Mongolia
     :states: {}
 
-  PK: 
+  PK:
     :name: Pakistan
     :states: {}
 
-  SG: 
+  SG:
     :name: Singapore
     :states: {}
 
-  VC: 
+  VC:
     :name: Saint Vincent & the Grenadines
     :states: {}
 
-  CF: 
+  CF:
     :name: Central African Republic
     :states: {}
 
-  GW: 
+  GW:
     :name: Guinea-Bissau
     :states: {}
 
-  MO: 
+  MO:
     :name: Macau
     :states: {}
 
-  PL: 
+  PL:
     :name: Poland
     :states: {}
 
-  SH: 
+  SH:
     :name: St. Helena
     :states: {}
 
-  CG: 
+  CG:
     :name: Congo
     :states: {}
 
-  MP: 
+  MP:
     :name: Northern Mariana Islands
     :states: {}
 
-  PM: 
+  PM:
     :name: St. Pierre and Miquelon
     :states: {}
 
-  SI: 
+  SI:
     :name: Slovenia
     :states: {}
 
-  VE: 
+  VE:
     :name: Venezuela
     :states: {}
 
-  ZW: 
+  ZW:
     :name: Zimbabwe
     :states: {}
 
-  CH: 
+  CH:
     :name: Switzerland
     :states: {}
 
-  GY: 
+  GY:
     :name: Guyana
     :states: {}
 
-  MQ: 
+  MQ:
     :name: Martinique
     :states: {}
 
-  PN: 
+  PN:
     :name: Pitcairn
     :states: {}
 
-  SJ: 
+  SJ:
     :name: Svalbard & Jan Mayen Islands
     :states: {}
 
-  CI: 
+  CI:
     :name: Cote D'Ivoire (Ivory Coast)
     :states: {}
 
-  MR: 
+  MR:
     :name: Mauritania
     :states: {}
 
-  SK: 
+  SK:
     :name: Slovak Republic
     :states: {}
 
-  VG: 
+  VG:
     :name: British Virgin Islands
     :states: {}
 
-  MS: 
+  MS:
     :name: Montserrat
     :states: {}
 
-  SL: 
+  SL:
     :name: Sierra Leone
     :states: {}
 
-  CK: 
+  CK:
     :name: Cook Islands
     :states: {}
 
-  ID: 
+  ID:
     :name: Indonesia
     :states: {}
 
-  MT: 
+  MT:
     :name: Malta
     :states: {}
 
-  SM: 
+  SM:
     :name: San Marino
     :states: {}
 
-  VI: 
+  VI:
     :name: Virgin Islands (U.S.)
     :states: {}
 
-  YE: 
+  YE:
     :name: Yemen
     :states: {}
 
-  CL: 
+  CL:
     :name: Chile
     :states: {}
 
-  IE: 
+  IE:
     :name: Ireland
     :states: {}
 
-  LA: 
+  LA:
     :name: Laos
     :states: {}
 
-  MU: 
+  MU:
     :name: Mauritius
     :states: {}
 
-  SN: 
+  SN:
     :name: Senegal
     :states: {}
 
-  CM: 
+  CM:
     :name: Cameroon
     :states: {}
 
-  FI: 
+  FI:
     :name: Finland
     :states: {}
 
-  LB: 
+  LB:
     :name: Lebanon
     :states: {}
 
-  MV: 
+  MV:
     :name: Maldives
     :states: {}
 
-  PR: 
+  PR:
     :name: Puerto Rico
     :states: {}
 
-  SO: 
+  SO:
     :name: Somalia
     :states: {}
 
-  CN: 
+  CN:
     :name: China
     :states: {}
 
-  FJ: 
+  FJ:
     :name: Fiji
     :states: {}
 
-  LC: 
+  LC:
     :name: Saint Lucia
     :states: {}
 
-  MW: 
+  MW:
     :name: Malawi
     :states: {}
 
-  PS: 
+  PS:
     :name: Palestinian Territory, Occupied
     :states: {}
 
-  CO: 
+  CO:
     :name: Colombia
     :states: {}
 
-  FK: 
+  FK:
     :name: Falkland Islands (Malvinas)
     :states: {}
 
-  MX: 
+  MX:
     :name: Mexico
     :states: {}
 
-  PT: 
+  PT:
     :name: Portugal
     :states: {}
 
-  MY: 
+  MY:
     :name: Malaysia
     :states: {}
 
-  SR: 
+  SR:
     :name: Suriname
     :states: {}
 
-  VN: 
+  VN:
     :name: Viet Nam
     :states: {}
 
-  FM: 
+  FM:
     :name: Micronesia
     :states: {}
 
-  MZ: 
+  MZ:
     :name: Mozambique
     :states: {}
 
-  CR: 
+  CR:
     :name: Costa Rica
     :states: {}
 
-  PW: 
+  PW:
     :name: Palau
     :states: {}
 
-  CS: 
+  CS:
     :name: Czechoslovakia (former)
     :states: {}
 
-  FO: 
+  FO:
     :name: Faroe Islands
     :states: {}
 
-  ST: 
+  ST:
     :name: Sao Tome and Principe
     :states: {}
 
-  IL: 
+  IL:
     :name: Israel
     :states: {}
 
-  LI: 
+  LI:
     :name: Liechtenstein
     :states: {}
 
-  PY: 
+  PY:
     :name: Paraguay
     :states: {}
 
-  SU: 
+  SU:
     :name: USSR (former)
     :states: {}
 
-  BA: 
+  BA:
     :name: Bosnia and Herzegovina
     :states: {}
 
-  CU: 
+  CU:
     :name: Cuba
     :states: {}
 
-  IM: 
+  IM:
     :name: Isle of Man
     :states: {}
 
-  SV: 
+  SV:
     :name: El Salvador
     :states: {}
 
-  CV: 
+  CV:
     :name: Cape Verde
     :states: {}
 
-  FR: 
+  FR:
     :name: France
     :states: {}
 
-  IN: 
+  IN:
     :name: India
     :states:
       AP: Andhra Pradesh
@@ -368,245 +368,245 @@
       UP: Uttar Pradesh
       WB: West Bengal
 
-  LK: 
+  LK:
     :name: Sri Lanka
     :states: {}
 
-  BB: 
+  BB:
     :name: Barbados
     :states: {}
 
-  IO: 
+  IO:
     :name: British Indian Ocean Territory
     :states: {}
 
-  VU: 
+  VU:
     :name: Vanuatu
     :states: {}
 
-  CX: 
+  CX:
     :name: Christmas Island
     :states: {}
 
-  RE: 
+  RE:
     :name: Reunion
     :states: {}
 
-  UA: 
+  UA:
     :name: Ukraine
     :states: {}
 
-  SY: 
+  SY:
     :name: Syria
     :states: {}
 
-  CY: 
+  CY:
     :name: Cyprus
     :states: {}
 
-  IQ: 
+  IQ:
     :name: Iraq
     :states: {}
 
-  SZ: 
+  SZ:
     :name: Swaziland
     :states: {}
 
-  BD: 
+  BD:
     :name: Bangladesh
     :states: {}
 
-  CZ: 
+  CZ:
     :name: Czech Republic
     :states: {}
 
-  IR: 
+  IR:
     :name: Iran
     :states: {}
 
-  YT: 
+  YT:
     :name: Mayotte
     :states: {}
 
-  BE: 
+  BE:
     :name: Belgium
     :states: {}
 
-  IS: 
+  IS:
     :name: Iceland
     :states: {}
 
-  YU: 
+  YU:
     :name: Yugoslavia (former)
     :states: {}
 
-  BF: 
+  BF:
     :name: Burkina Faso
     :states: {}
 
-  EC: 
+  EC:
     :name: Ecuador
     :states: {}
 
-  FX: 
+  FX:
     :name: France, Metropolitan
     :states: {}
 
-  IT: 
+  IT:
     :name: Italy
     :states: {}
 
-  OM: 
+  OM:
     :name: Oman
     :states: {}
 
-  BG: 
+  BG:
     :name: Bulgaria
     :states: {}
 
-  BH: 
+  BH:
     :name: Bahrain
     :states: {}
 
-  LR: 
+  LR:
     :name: Liberia
     :states: {}
 
-  UG: 
+  UG:
     :name: Uganda
     :states: {}
 
-  BI: 
+  BI:
     :name: Burundi
     :states: {}
 
-  EE: 
+  EE:
     :name: Estonia
     :states: {}
 
-  LS: 
+  LS:
     :name: Lesotho
     :states: {}
 
-  BJ: 
+  BJ:
     :name: Benin
     :states: {}
 
-  LT: 
+  LT:
     :name: Lithuania
     :states: {}
 
-  EG: 
+  EG:
     :name: Egypt
     :states: {}
 
-  EH: 
+  EH:
     :name: Western Sahara
     :states: {}
 
-  LU: 
+  LU:
     :name: Luxembourg
     :states: {}
 
-  RO: 
+  RO:
     :name: Romania
     :states: {}
 
-  UK: 
+  UK:
     :name: United Kingdom
     :states: {}
 
-  BM: 
+  BM:
     :name: Bermuda
     :states: {}
 
-  LV: 
+  LV:
     :name: Latvia
     :states: {}
 
-  BN: 
+  BN:
     :name: Brunei Darussalam
     :states: {}
 
-  UM: 
+  UM:
     :name: US Minor Outlying Islands
     :states: {}
 
-  BO: 
+  BO:
     :name: Bolivia
     :states: {}
 
-  KE: 
+  KE:
     :name: Kenya
     :states: {}
 
-  NA: 
+  NA:
     :name: Namibia
     :states: {}
 
-  LY: 
+  LY:
     :name: Libya
     :states: {}
 
-  BR: 
+  BR:
     :name: Brazil
     :states: {}
 
-  KG: 
+  KG:
     :name: Kyrgyzstan
     :states: {}
 
-  NC: 
+  NC:
     :name: New Caledonia
     :states: {}
 
-  RS: 
+  RS:
     :name: Serbia
     :states: {}
 
-  BS: 
+  BS:
     :name: Bahamas
     :states: {}
 
-  HK: 
+  HK:
     :name: Hong Kong
     :states: {}
 
-  KH: 
+  KH:
     :name: Cambodia
     :states: {}
 
-  BT: 
+  BT:
     :name: Bhutan
     :states: {}
 
-  KI: 
+  KI:
     :name: Kiribati
     :states: {}
 
-  NE: 
+  NE:
     :name: Niger
     :states: {}
 
-  QA: 
+  QA:
     :name: Qatar
     :states: {}
 
-  RU: 
+  RU:
     :name: Russian Federation
     :states: {}
 
-  HM: 
+  HM:
     :name: Heard and McDonald Islands
     :states: {}
 
-  NF: 
+  NF:
     :name: Norfolk Island
     :states: {}
 
-  US: 
+  US:
     :name: United States
-    :states: 
+    :states:
       VA: Virginia
       NY: New York
       ND: North Dakota
@@ -666,127 +666,127 @@
       AK: Alaska
       LA: Louisiana
       NC: North Carolina
-  BV: 
+  BV:
     :name: Bouvet Island
     :states: {}
 
-  ER: 
+  ER:
     :name: Eritrea
     :states: {}
 
-  HN: 
+  HN:
     :name: Honduras
     :states: {}
 
-  NG: 
+  NG:
     :name: Nigeria
     :states: {}
 
-  RW: 
+  RW:
     :name: Rwanda
     :states: {}
 
-  BW: 
+  BW:
     :name: Botswana
     :states: {}
 
-  ES: 
+  ES:
     :name: Spain
     :states: {}
 
-  AC: 
+  AC:
     :name: Ascension Island
     :states: {}
 
-  ET: 
+  ET:
     :name: Ethiopia
     :states: {}
 
-  NI: 
+  NI:
     :name: Nicaragua
     :states: {}
 
-  AD: 
+  AD:
     :name: Andorra
     :states: {}
 
-  BY: 
+  BY:
     :name: Belarus
     :states: {}
 
-  KM: 
+  KM:
     :name: Comoros
     :states: {}
 
-  AE: 
+  AE:
     :name: United Arab Emirates
     :states: {}
 
-  BZ: 
+  BZ:
     :name: Belize
     :states: {}
 
-  HR: 
+  HR:
     :name: Croatia (Hrvatska)
     :states: {}
 
-  KN: 
+  KN:
     :name: Saint Kitts and Nevis
     :states: {}
 
-  TC: 
+  TC:
     :name: Turks and Caicos Islands
     :states: {}
 
-  AF: 
+  AF:
     :name: Afghanistan
     :states: {}
 
-  NL: 
+  NL:
     :name: Netherlands
     :states: {}
 
-  TD: 
+  TD:
     :name: Chad
     :states: {}
 
-  AG: 
+  AG:
     :name: Antigua and Barbuda
     :states: {}
 
-  HT: 
+  HT:
     :name: Haiti
     :states: {}
 
-  KP: 
+  KP:
     :name: Korea (North)
     :states: {}
 
-  UY: 
+  UY:
     :name: Uruguay
     :states: {}
 
-  GA: 
+  GA:
     :name: Gabon
     :states: {}
 
-  HU: 
+  HU:
     :name: Hungary
     :states: {}
 
-  TF: 
+  TF:
     :name: French Southern Territories
     :states: {}
 
-  UZ: 
+  UZ:
     :name: Uzbekistan
     :states: {}
 
-  AI: 
+  AI:
     :name: Anguilla
     :states: {}
 
-  DE: 
+  DE:
     :name: Germany
     :states:
       BW: Baden-Württemberg
@@ -806,193 +806,193 @@
       SH: Schleswig-Holstein
       TH: Thuringia
 
-  GB: 
+  GB:
     :name: Great Britain (UK)
     :states: {}
 
-  KR: 
+  KR:
     :name: Korea (South)
     :states: {}
 
-  TG: 
+  TG:
     :name: Togo
     :states: {}
 
-  TH: 
+  TH:
     :name: Thailand
     :states: {}
 
-  GD: 
+  GD:
     :name: Grenada
     :states: {}
 
-  NP: 
+  NP:
     :name: Nepal
     :states: {}
 
-  ZA: 
+  ZA:
     :name: South Africa
     :states: {}
 
-  AL: 
+  AL:
     :name: Albania
     :states: {}
 
-  GE: 
+  GE:
     :name: Georgia
     :states: {}
 
-  TJ: 
+  TJ:
     :name: Tajikistan
     :states: {}
 
-  WF: 
+  WF:
     :name: Wallis and Futuna Islands
     :states: {}
 
-  AM: 
+  AM:
     :name: Armenia
     :states: {}
 
-  GF: 
+  GF:
     :name: French Guiana
     :states: {}
 
-  NR: 
+  NR:
     :name: Nauru
     :states: {}
 
-  TK: 
+  TK:
     :name: Tokelau
     :states: {}
 
-  AN: 
+  AN:
     :name: Netherlands Antilles
     :states: {}
 
-  DJ: 
+  DJ:
     :name: Djibouti
     :states: {}
 
-  KW: 
+  KW:
     :name: Kuwait
     :states: {}
 
-  AO: 
+  AO:
     :name: Angola
     :states: {}
 
-  DK: 
+  DK:
     :name: Denmark
     :states: {}
 
-  NT: 
+  NT:
     :name: Neutral Zone
     :states: {}
 
-  TM: 
+  TM:
     :name: Turkmenistan
     :states: {}
 
-  GH: 
+  GH:
     :name: Ghana
     :states: {}
 
-  JE: 
+  JE:
     :name: Jersey
     :states: {}
 
-  MA: 
+  MA:
     :name: Morocco
     :states: {}
 
-  KY: 
+  KY:
     :name: Cayman Islands
     :states: {}
 
-  NU: 
+  NU:
     :name: Niue
     :states: {}
 
-  TN: 
+  TN:
     :name: Tunisia
     :states: {}
 
-  DM: 
+  DM:
     :name: Dominica
     :states: {}
 
-  GI: 
+  GI:
     :name: Gibraltar
     :states: {}
 
-  KZ: 
+  KZ:
     :name: Kazakhstan
     :states: {}
 
-  TO: 
+  TO:
     :name: Tonga
     :states: {}
 
-  AQ: 
+  AQ:
     :name: Antarctica
     :states: {}
 
-  MC: 
+  MC:
     :name: Monaco
     :states: {}
 
-  TP: 
+  TP:
     :name: East Timor
     :states: {}
 
-  AR: 
+  AR:
     :name: Argentina
     :states: {}
 
-  MD: 
+  MD:
     :name: Moldova
     :states: {}
 
-  AS: 
+  AS:
     :name: American Samoa
     :states: {}
 
-  DO: 
+  DO:
     :name: Dominican Republic
     :states: {}
 
-  ME: 
+  ME:
     :name: Montenegro
     :states: {}
 
-  PA: 
+  PA:
     :name: Panama
     :states: {}
 
-  TR: 
+  TR:
     :name: Turkey
     :states: {}
 
-  AT: 
+  AT:
     :name: Austria
     :states: {}
 
-  GL: 
+  GL:
     :name: Greenland
     :states: {}
 
-  GM: 
+  GM:
     :name: Gambia
     :states: {}
 
-  NZ: 
+  NZ:
     :name: New Zealand (Aotearoa)
     :states: {}
 
-  AU: 
+  AU:
     :name: Australia
-    :states: 
+    :states:
       N T: Northern Territory
       W A: Western Australia
       SA: South Australia
@@ -1001,57 +1001,57 @@
       ACT: Australian Capital Territory
       NSW: New South Wales
       QLD: Queensland
-  GN: 
+  GN:
     :name: Guinea
     :states: {}
 
-  MG: 
+  MG:
     :name: Madagascar
     :states: {}
 
-  ZM: 
+  ZM:
     :name: Zambia
     :states: {}
 
-  MH: 
+  MH:
     :name: Marshall Islands
     :states: {}
 
-  TT: 
+  TT:
     :name: Trinidad and Tobago
     :states: {}
 
-  AW: 
+  AW:
     :name: Aruba
     :states: {}
 
-  GP: 
+  GP:
     :name: Guadeloupe
     :states: {}
 
-  AX: 
+  AX:
     :name: Aland Islands
     :states: {}
 
-  SA: 
+  SA:
     :name: Saudi Arabia
     :states: {}
 
-  PE: 
+  PE:
     :name: Peru
     :states: {}
 
-  JM: 
+  JM:
     :name: Jamaica
     :states: {}
 
-  GQ: 
+  GQ:
     :name: Equatorial Guinea
     :states: {}
 
-  CA: 
+  CA:
     :name: Canada
-    :states: 
+    :states:
       AB: Alberta
       BC: British Columbia
       "ON": Ontario
@@ -1065,63 +1065,63 @@
       NB: New Brunswick
       PE: Prince Edward Island
       MB: Manitoba
-  WS: 
+  WS:
     :name: Samoa
     :states: {}
 
-  TV: 
+  TV:
     :name: Tuvalu
     :states: {}
 
-  SB: 
+  SB:
     :name: Solomon Islands
     :states: {}
 
-  PF: 
+  PF:
     :name: French Polynesia
     :states: {}
 
-  PG: 
+  PG:
     :name: Papua New Guinea
     :states: {}
 
-  MK: 
+  MK:
     :name: F.Y.R.O.M. (Macedonia)
     :states: {}
 
-  GR: 
+  GR:
     :name: Greece
     :states: {}
 
-  AZ: 
+  AZ:
     :name: Azerbaijan
     :states: {}
 
-  TW: 
+  TW:
     :name: Taiwan
     :states: {}
 
-  SC: 
+  SC:
     :name: Seychelles
     :states: {}
 
-  PH: 
+  PH:
     :name: Philippines
     :states: {}
 
-  JO: 
+  JO:
     :name: Jordan
     :states: {}
 
-  SD: 
+  SD:
     :name: Sudan
     :states: {}
 
-  GS: 
+  GS:
     :name: S. Georgia and S. Sandwich Isls.
     :states: {}
 
-  ML: 
+  ML:
     :name: Mali
     :states: {}
 

@@ -10,7 +10,7 @@ class StateTest < Test::Unit::TestCase
     setup do
       Decoder.i18n = :en
     end
-    
+
     context "Getters" do
       setup do
         @state = Decoder::State.new(:code => "MA", :name => "Massachusetts")
@@ -25,5 +25,5 @@ class StateTest < Test::Unit::TestCase
       end
     end
   end
-  
+
 end
